@@ -1,0 +1,126 @@
+org.apache.jmeter.engine.StandardJMeterEngine.stopThread(Thread.currentThread().getName());
+
+
+
+
+
+
+Corelation
+Pre/Post Processor
+Bean Shell Scripts
+database connection using jmeter perform data base testing
+
+
+
+
+
+
+Pre Processor: Components
+
+
+
+Pre Processor ------> is always applied on request
+Post Processor-----> Retrieves data from response
+
+
+
+
+
+Bean Shell
+ What is bean shell ?
+
+- Scripting language
+- based out of java
+- Loose type commands ------. variables are declared without any data type
+
+
+
+Why bean shell?
+- Customize our test cases
+- Flexibility
+
+
+
+For making connection with MYSQL db Add following files in 
+
+apache-jmeter-5.4\apache-jmeter-5.4\lib
+
+mysql-connector-java-5.1.48
+mysql-connector-java-5.1.48-bin
+
+
+
+
+
+
+
+
+
+
+
+
+Bean shell in jmeter
+
+- BeanShell Sample
+- Bean Shell Pre processor
+- Bean Shell Post Processor
+
+
+
+vars.put("link","www.wikipedia.org");------> sets a value to a variable
+
+var x = vars.get("link");----> retrieves values from a variable
+
+
+
+
+
+
+
+
+
+
+
+HTTP Request_1--------> Preprocessor-----------> HTTP Request_2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
